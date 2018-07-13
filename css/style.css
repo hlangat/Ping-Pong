@@ -19,6 +19,7 @@ body {
     font-size: 13px;
     color: black;
     background-color: dimgrey;
+    text-shadow: 4px 4px 4px #aaa;
 }
 
 #outer {
@@ -55,4 +56,7 @@ body {
 }
 #output{
     color: red;
+}
+#button{
+    background-color: green;
 }
