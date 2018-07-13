@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Ping-Pong</title>
+    <link href="css/style.css" rel="stylesheet" media="screen" title="Ping-Pong" charset="utf-8">
+    <script src="https://code.jquery.com/jquery-1.12.0.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+
+
+    <!---
+    <style>
+        .row {
+            width: 100%;
+            height: 100%;
+        }
+
+        .row div {
+            width: 40%;
+            height: 100%;
+            float: left;
+        }
+
+        body {
+            color: #006ba6;
+            text-align: center;
+            background: #006194;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+        }
+
+        #outer {
+            width: 90%;
+            margin: auto;
+            background: #fff;
+            padding: 22px 10px 10px;
+        }
+    </style>
+-->
+</head>
+
+<body>
+    <br>
+    <div id="outer">
+        <div class="header" id="header">
+            <h1 align="center" style="color:black">Ping-Pong</h1>
+        </div>
+
+        <div style="width: 100%; height:100%;">
+            <div style="float:left; width: 15%; background-color:#7DC242 " id="hillary">
+                <h5 style="color:black">
+                    <strong>About Ping Pong</strong>
+                </h5>
+                <p style="color:white;" <b>Created by:</b>
+                </p>
+                <p style="color:blue">
+                    <b>Hillary Kipkorir Langat</b>
+                </p>
+                <p style="color:white">
+                    <strong>GitHub Username:</strong>
+                </p>
+                <p>
+                    <a href="https://github.com/hlangat" target="blank">hlangat</a>
+                </p>
+                <p style="color:blue">
+                    <b>Level 2 Test for:</b>
+                </p>
+                <p style="color:white">
+                    <b>Javascript</b>
+                </p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+            <div style="float:left;" >
+                <h3>Let's play!</h3>
+                <h4>Rules:</h4>
+                <p>
+                    Ping Pong will count up to your number from 1 with the following exceptions:</p>
+                    <div id="list">
+                <ol>
+                    <li>Numbers divisible by 3 become "ping"</li>
+                    <li>Numbers divisible by 5 become "pong"</li>
+                    <li>Numbers divisible by 3 and 5 come "pingpong"</li>
+                </ol>
+                </div>
+
+
+                <div class="form-group">
+                    <form id="userInput" action="index.html" method="get">
+                        <label for="userNumber">Enter your number here:</label>
+                        <input id="countTo" type="number" name="number" value="">
+                        <button type="submit" name="button">Ping Pong!</button>
+                    </form>
+                </div>
+                </div>
+                <div class="output">
+                    <ul id="output">
+                    </ul>
+                </div>
+            
+        </div>
+        <div style="clear:both"></div>
+    </div>
+
+</body>
+
+</html>
